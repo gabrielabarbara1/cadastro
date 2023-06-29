@@ -1,0 +1,58 @@
+/* Reset padrão para remover margens e preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  h1{
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* Estilo básico do menu */
+  .menu ul {
+    list-style-type: none;
+    background-color: #012030;
+    overflow: hidden;
+  }
+  
+  .menu li {
+    float: left;
+    font-size: 1.3rem;
+  }
+  
+  .menu li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    background-color: #45c4b0;
+  }
+  
+  /* Estilo para o menu suspenso */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #13678A;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(6, 1, 37, 0.87);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
